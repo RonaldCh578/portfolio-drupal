@@ -1,0 +1,65 @@
+/**
+ * @file
+ * Subtheme specific CSS.*/
+.footer_color
+{
+text-align: center;
+border: none;
+}
+.navbar-toggler {
+	border: 1px solid rgb(255, 255, 255);
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.js-form-submit {
+	margin-top: 11px;
+}
+
+.navbar-brand {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-right: auto;
+ }
+.view_padding
+{
+padding: 30px;
+}
+.header_font
+{
+font-family: 'Montserrat', sans-serif;
+color: #FFFFFF
+}
+.navbar-collapse .nav-link {
+	padding: .5rem .5rem;
+}
+.content_items
+{
+font-family: 'Montserrat', sans-serif;
+font-size: 23px;
+}
+.sidebar_items
+{
+border: none;
+border-color: #FFFFFF;
+}
+.breadcrumb_items
+img:hover {
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
+.breadcrumb_items img{
+	width: 100%;
+ }
+ #block-portfolio-page-title .content h1{
+	 text-align: center;
+ }
+
+.main-content .content .node__content{
+	font-size: 18px;
+}
